@@ -34,16 +34,22 @@ export default function Home() {
   </p>
 
   <div className="mt-10 flex gap-4">
-    <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-500">
-      Start Learning
-    </button>
+    <a
+  href="/devops"
+  className="rounded-xl bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-500"
+>
+  Start Learning
+</a>
 
-    <button className="rounded-xl border border-slate-700 px-6 py-3 font-semibold hover:border-cyan-500">
-      Explore Universe
-    </button>
+    <a
+  href="#universe"
+  className="rounded-xl border border-slate-700 px-6 py-3 font-semibold hover:border-cyan-500"
+>
+  Explore Universe
+</a>
   </div>
 </section>
-<section className="bg-slate-900 py-20">
+<section id="universe" className="bg-slate-900 py-20">
   <div className="mx-auto max-w-7xl px-6">
     <h2 className="mb-12 text-center text-4xl font-bold">
       Learning Universe
