@@ -105,6 +105,12 @@ export default function Home() {
             >
               🛡️ SRE Command Center
             </a>
+            <a
+  href="/labs"
+  className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
+>
+  🧪 DevOps Labs
+</a>
           </div>
         </div>
       </section>
