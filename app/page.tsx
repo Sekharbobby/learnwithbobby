@@ -1,6 +1,22 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
+      <nav className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <div className="font-bold text-cyan-400 text-xl">
+      🚀 LearnWithBobby
+    </div>
+
+    <div className="hidden md:flex gap-6 text-slate-300">
+      <a href="/">Home</a>
+      <a href="/devops">DevOps</a>
+      <a href="/aws-devops">AWS</a>
+      <a href="/azure-devops">Azure</a>
+      <a href="/sre">SRE</a>
+      <a href="/projects">Projects</a>
+    </div>
+  </div>
+</nav>
       <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
   <div className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-cyan-300">
     🚀 LearnWithBobby
