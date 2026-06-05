@@ -57,7 +57,9 @@ export default function Home() {
 
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
       <div className="rounded-2xl border border-slate-700 p-6">
-        🌱 Beginner Island
+        <a href="/devops" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
+  🌱 Beginner Island
+</a>
       </div>
 
       <div className="rounded-2xl border border-slate-700 p-6">
@@ -77,15 +79,21 @@ export default function Home() {
       </div>
 
       <div className="rounded-2xl border border-slate-700 p-6">
-        ☁️ AWS Galaxy
+        <a href="/aws-devops" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
+  ☁️ AWS Galaxy
+</a>
       </div>
 
       <div className="rounded-2xl border border-slate-700 p-6">
-        🔷 Azure City
+        <a href="/azure-devops" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
+  🔷 Azure City
+</a>
       </div>
 
       <div className="rounded-2xl border border-slate-700 p-6">
-        🛡️ SRE Command Center
+        <a href="/sre" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
+  🛡️ SRE Command Center
+</a>
       </div>
     </div>
   </div>
