@@ -7,10 +7,8 @@ export default function Home() {
         </div>
 
         <h1 className="mt-8 text-6xl font-bold md:text-8xl">
-          Learn DevOps
-          <br />
-          Through Real Missions
-        </h1>
+  LearnWithBobby 🚀 LIVE
+</h1>
 
         <p className="mt-8 max-w-3xl text-xl text-slate-300">
           Learn DevOps, AWS DevOps, Azure DevOps and SRE through
