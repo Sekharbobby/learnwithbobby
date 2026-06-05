@@ -15,6 +15,7 @@ export default function Home() {
             <a href="/azure-devops">Azure</a>
             <a href="/sre">SRE</a>
 <a href="/labs">Labs</a>
+<a href="/interview-questions">Interview Questions</a>
 <a href="/projects">Projects</a>
           </div>
         </div>
@@ -105,11 +106,17 @@ export default function Home() {
             >
               🛡️ SRE Command Center
             </a>
-            <a
-  href="/labs"
+            <a href="/labs"
   className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
 >
   🧪 DevOps Labs
+</a>
+
+<a
+  href="/interview-questions"
+  className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
+>
+  🎯 Interview Questions
 </a>
           </div>
         </div>
