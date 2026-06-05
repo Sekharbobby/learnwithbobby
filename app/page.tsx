@@ -48,54 +48,62 @@ export default function Home() {
   Explore Universe
 </a>
   </div>
-</section>
 <section id="universe" className="bg-slate-900 py-20">
   <div className="mx-auto max-w-7xl px-6">
     <h2 className="mb-12 text-center text-4xl font-bold">
       Learning Universe
     </h2>
 
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-      <div className="rounded-2xl border border-slate-700 p-6">
-        <a href="/devops" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
-  🌱 Beginner Island
-</a>
-      </div>
+```
+<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        🐧 Linux Valley
-      </div>
+  <a
+    href="/devops"
+    className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
+  >
+    🌱 Beginner Island
+  </a>
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        🌳 Git Forest
-      </div>
+  <div className="rounded-2xl border border-slate-700 p-6">
+    🐧 Linux Valley
+  </div>
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        📦 Docker Harbor
-      </div>
+  <div className="rounded-2xl border border-slate-700 p-6">
+    🌳 Git Forest
+  </div>
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        ☸️ Kubernetes Kingdom
-      </div>
+  <div className="rounded-2xl border border-slate-700 p-6">
+    📦 Docker Harbor
+  </div>
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        <a href="/aws-devops" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
-  ☁️ AWS Galaxy
-</a>
-      </div>
+  <div className="rounded-2xl border border-slate-700 p-6">
+    ☸️ Kubernetes Kingdom
+  </div>
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        <a href="/azure-devops" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
-  🔷 Azure City
-</a>
-      </div>
+  <a
+    href="/aws-devops"
+    className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
+  >
+    ☁️ AWS Galaxy
+  </a>
 
-      <div className="rounded-2xl border border-slate-700 p-6">
-        <a href="/sre" className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500">
-  🛡️ SRE Command Center
-</a>
-      </div>
-    </div>
+  <a
+    href="/azure-devops"
+    className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
+  >
+    🔷 Azure City
+  </a>
+
+  <a
+    href="/sre"
+    className="rounded-2xl border border-slate-700 p-6 hover:border-cyan-500"
+  >
+    🛡️ SRE Command Center
+  </a>
+
+</div>
+```
+
   </div>
 </section>
 <section className="bg-slate-950 py-20">
