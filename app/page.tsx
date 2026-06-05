@@ -42,6 +42,29 @@ export default function Home() {
     </div>
   </div>
 </section>
+<section className="bg-slate-950 py-20">
+  <div className="mx-auto grid max-w-6xl gap-8 px-6 text-center md:grid-cols-4">
+    <div>
+      <h3 className="text-4xl font-bold text-cyan-400">50+</h3>
+      <p>Tutorials</p>
+    </div>
+
+    <div>
+      <h3 className="text-4xl font-bold text-cyan-400">25+</h3>
+      <p>Hands-on Labs</p>
+    </div>
+
+    <div>
+      <h3 className="text-4xl font-bold text-cyan-400">10+</h3>
+      <p>Roadmaps</p>
+    </div>
+
+    <div>
+      <h3 className="text-4xl font-bold text-cyan-400">100+</h3>
+      <p>Interview Questions</p>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
