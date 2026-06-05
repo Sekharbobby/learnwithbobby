@@ -1,30 +1,47 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
-      <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
-        <div className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-cyan-300">
-          🚀 LearnWithBobby
-        </div>
+<section className="bg-slate-900 py-20">
+  <div className="mx-auto max-w-7xl px-6">
+    <h2 className="mb-12 text-center text-4xl font-bold">
+      Learning Universe
+    </h2>
 
-        <h1 className="mt-8 text-6xl font-bold md:text-8xl">
-  LearnWithBobby 🚀 LIVE
-</h1>
+    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="rounded-2xl border border-slate-700 p-6">
+        🌱 Beginner Island
+      </div>
 
-        <p className="mt-8 max-w-3xl text-xl text-slate-300">
-          Learn DevOps, AWS DevOps, Azure DevOps and SRE through
-          hands-on labs, projects, production scenarios and guided learning paths.
-        </p>
+      <div className="rounded-2xl border border-slate-700 p-6">
+        🐧 Linux Valley
+      </div>
 
-        <div className="mt-10 flex gap-4">
-          <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-500">
-            Start Learning
-          </button>
+      <div className="rounded-2xl border border-slate-700 p-6">
+        🌳 Git Forest
+      </div>
 
-          <button className="rounded-xl border border-slate-700 px-6 py-3 font-semibold hover:border-cyan-500">
-            Explore Universe
-          </button>
-        </div>
-      </section>
+      <div className="rounded-2xl border border-slate-700 p-6">
+        📦 Docker Harbor
+      </div>
+
+      <div className="rounded-2xl border border-slate-700 p-6">
+        ☸️ Kubernetes Kingdom
+      </div>
+
+      <div className="rounded-2xl border border-slate-700 p-6">
+        ☁️ AWS Galaxy
+      </div>
+
+      <div className="rounded-2xl border border-slate-700 p-6">
+        🔷 Azure City
+      </div>
+
+      <div className="rounded-2xl border border-slate-700 p-6">
+        🛡️ SRE Command Center
+      </div>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
