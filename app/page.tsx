@@ -14,7 +14,8 @@ export default function Home() {
             <a href="/aws-devops">AWS</a>
             <a href="/azure-devops">Azure</a>
             <a href="/sre">SRE</a>
-            <a href="/projects">Projects</a>
+<a href="/labs">Labs</a>
+<a href="/projects">Projects</a>
           </div>
         </div>
       </nav>
