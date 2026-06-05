@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "LearnWithBobby",
-  description: "Learn DevOps, AWS DevOps, Azure DevOps and SRE through real-world projects and labs.",
+  description: "Learn DevOps, AWS, Azure and SRE",
 };
 
 export default function RootLayout({
